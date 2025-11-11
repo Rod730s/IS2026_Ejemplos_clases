@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeros pasos con JS</title>
+</head>
+<body>
+
+    <h2>Iteraciones</h2>
+    <div id="cielo"></div>
+
+    <button id = "btnEstrella"> 🌟 </button>
+
+    <button onclick="alert('Hola mundo en JS')">Click</button>
+    <button id="boton2">Botón 2</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector('#boton2').addEventListener('click', function() {
+                alert('Hola mundo en botón 2');
+            });
+        });
+    </script>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
