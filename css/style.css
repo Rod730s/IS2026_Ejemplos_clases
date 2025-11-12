@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    background-color: rgb(167, 202, 102);
+    background-color: rgb(177, 238, 78);
 }
 
 #nav li{
@@ -12,7 +12,7 @@
 }
 
 #nav li:hover{
-    background-color: rgb(184, 199, 119);
+    background-color: rgba(62, 104, 33, 0.63);
 }
 
 #nav a{
