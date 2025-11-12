@@ -12,7 +12,7 @@ const productos = [
 ];
 
 
-const contenedor = document.getElementById("contenedor");
+const contenedor = document.getElementById("componente");
 
 productos.forEach(prod =>{
     const card = document.createElement("div");
